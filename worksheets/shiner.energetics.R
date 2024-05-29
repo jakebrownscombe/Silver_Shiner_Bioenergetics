@@ -3,7 +3,7 @@
 
 
 #source packages
-setwd("~/github/silver_shiner_energetics")
+setwd("~/github/Silver_Shiner_Bioenergetics")
 source("worksheets/packages.R")
 
 
