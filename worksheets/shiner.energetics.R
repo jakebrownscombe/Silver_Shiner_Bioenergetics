@@ -508,7 +508,7 @@ ggplot(fb, aes(temp, Met.J))+geom_point()+
 #CTmax ----
 
 #CTmax
-CTmax <- readRDS("~/github/silver_shiner_energetics/data/CTmax.RDS")
+CTmax <- readRDS("~/github/Silver_Shiner_Bioenergetics/data/CTmax.RDS")
 head(as.data.frame(CTmax))
 
 
@@ -598,7 +598,7 @@ summary(growth.lm)
 
 
 #consumption data
-cons <- readRDS("~/github/silver_shiner_energetics/data/consumption.RDS")
+cons <- readRDS("~/github/Silver_Shiner_Bioenergetics/data/consumption.RDS")
 head(cons) #feeding, waste, consumption rates by tank and day for both individual and temperature experiments 
 
 #temperature effects plots 
